@@ -39,6 +39,7 @@ a {
     width: 200px;
     height: auto;
     border-radius: 50%;
+    border: 3px solid #303030;
 }
 
 #bar h1 {
@@ -50,6 +51,8 @@ a {
 
 #bar > div p {
     margin: 0;
+    opacity: 0.5;
+    /* max-width: 200px; */
 }
 
 #textfield > div {
@@ -68,4 +71,35 @@ a {
 
 footer {
     opacity: 0.3;
+}
+
+@media only screen and (max-width: 760px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    #bar {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #bar img {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    #bar h1 {
+        font-size: 2rem;
+    }
+
+    #bar img {
+        width: 150px;
+    }
+
+    #textfield > div p {
+        text-align: justify;
+    }
 }
