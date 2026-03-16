@@ -4,9 +4,3 @@
 ---
 
 This site uses basic html and css, because nothing more is required for a simple static page like this. Only external dependency is Font Awesome.
-
-
-
-
-
--antalervin19 was here :D
